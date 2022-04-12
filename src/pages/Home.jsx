@@ -8,6 +8,7 @@ function Home() {
     {/* Search component */}
       <UserSearch/>
       <UserResults/>
+      
     
       </>
   )
