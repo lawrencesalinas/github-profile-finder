@@ -127,6 +127,43 @@ function User() {
            {followers}
          </div>
        </div>
+       
+       <div className="stat">
+         <div className="stat-figure text-secondary">
+           <FaUserFriends className='text-3xl md:text-5xl'/>
+         </div>
+         <div className="stat-title pr-5">
+           Following
+         </div>
+         <div className="stat-value pr-5 text-3xl md-4xl">
+           {following}
+         </div>
+       </div>
+
+       <div className="stat">
+         <div className="stat-figure text-secondary">
+           <FaCodepen className='text-3xl md:text-5xl'/>
+         </div>
+         <div className="stat-title pr-5">
+           Public Repos
+         </div>
+         <div className="stat-value pr-5 text-3xl md-4xl">
+           {public_repos}
+         </div>
+       </div>
+
+       <div className="stat">
+         <div className="stat-figure text-secondary">
+           <FaStore className='text-3xl md:text-5xl'/>
+         </div>
+         <div className="stat-title pr-5">
+           Public Gist
+         </div>
+         <div className="stat-value pr-5 text-3xl md-4xl">
+           {public_gists}
+         </div>
+       </div>
+
      </div>
    </div>
    </>
