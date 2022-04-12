@@ -57,6 +57,76 @@ function User() {
          </div>
        </div>
 
+       <div className="col-span-2">
+         <div className="mb-6">
+           <h1 className="text-3xl card-title">
+             {name}
+             <div className="ml-2 mr-1 badge badge-success">
+               {type}
+             </div>
+             {hireable && (
+               <div className="mx-1 badge badge-info">
+                 Hirable
+               </div>
+             )}
+
+           </h1>
+           <p>{bio}</p>
+           <div className="mt-4 card-actions">
+             <a href={html_url} target='_blank' rel='noreferrer' className='btn btn-outline'>
+              Visit Github Profile
+             </a>
+           </div>
+         </div>
+         
+         <div className="w-full rounded-lg shadow-md bg-base-100 stats">
+           {location && (
+             <div className="stat">
+               <div className="stat-title text-md">Location</div>
+               <div className="text-lg stat-value">
+                 {location}
+               </div>
+             </div>
+           )}
+              {blog && (
+             <div className="stat">
+               <div className="stat-title text-md">Website</div>
+               <div className="text-lg stat-value">
+                 <a href={`https://${blog}`} target='_blank' rel='noferrer'>
+                   {blog}
+                 </a>
+               </div>
+             </div>
+           )}
+               {twitter_username && (
+             <div className="stat">
+               <div className="stat-title text-md">Twitter</div>
+               <div className="text-lg stat-value">
+                 <a href={`https://twitter.com/${twitter_username}`} target='_blank' rel='noferrer'>
+                   {twitter_username}
+                 </a>
+               </div>
+             </div>
+           )}
+
+
+
+         </div>
+
+       </div>
+     </div>
+     <div className="w-full py-5 mb-6 rounded-lg shadow-md bg-base-100 stats">
+       <div className="stat">
+         <div className="stat-figure text-secondary">
+           <FaUsers className='text-3xl md:text-5xl'/>
+         </div>
+         <div className="stat-title pr-5">
+           Followers
+         </div>
+         <div className="stat-value pr-5 text-3xl md-4xl">
+           {followers}
+         </div>
+       </div>
      </div>
    </div>
    </>
