@@ -45,11 +45,20 @@ function User() {
 
    <>
    <div className="w-full mx-auto lg:w-10/12">
-     <div className="mb-4">
+
+   <div  onClick={()=> dispatch({type: 'CLEAR_USERS'})} className="btn btn-ghost btn-lg">
+   <Link to ='/' className="btn btn-ghost">
+         Back To Search
+       </Link>
+                    </div>
+     {/* <div className="mb-4">
        <Link to ='/' className="btn btn-ghost">
          Back To Search
        </Link>
-     </div>
+     </div> */}
+
+
+
 
      <div className="grid grid-cols-1 xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-3 mb-8 md:gap-8">
        <div className="custom-card-image mb-6 md:mb-0">
