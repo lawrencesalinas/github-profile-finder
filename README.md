@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="600" height="500" src="./src/assets/jpg/../gitihubfinder.gif">
+  <img width="600" height="400" src="./src/assets/jpg/../gitihubfinder.gif">
 </p>
 
 # Github Finder App
