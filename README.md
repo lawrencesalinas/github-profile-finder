@@ -57,7 +57,9 @@ npm start
 
 ## Cloud Deployment
 
-(The app repo is  deployed on Vercel [here](https://honey-comb-home.vercel.app/)
+The app is deployed on Vercel and can be accessed [here](https://github-profile-finder-ebon.vercel.app/)
+
+
 
 ## Contributors
 
