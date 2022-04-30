@@ -2,13 +2,14 @@
   <img width="600" height="400" src="./src/assets/jpg/../gitihubfinder.gif">
 </p>
 
-# Github Finder App
+# Github Profile Finder App
 
-App to search Github users and display their info. 
+App to search Github users and display their info. Github Profile Finder is a React.js project.
+An app that utilizes the Github API for data to search for Github users. uses React hooks to handle and organize components.
 
 ## Tech stack
 
-- React, useContext API, Tailwind, Bulma
+- React, Github API, Tailwind, Bulma
 
 ## User flows
 
